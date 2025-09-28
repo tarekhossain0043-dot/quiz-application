@@ -1,15 +1,15 @@
-// import Video from "../component/Video";
-// import Videos from "../component/Videos";
+import Video from "../component/Video";
+import Videos from "../component/Videos";
 export default function Home() {
-  // const videoProps = {
-  //   altTxt: "Single video",
-  //   text: "#23 React Hooks Bangla - React useReducer hook Bangla",
-  //   text2: "10 Questions",
-  //   text3: "Score : Not taken yet",
-  // };
+  const videoProps = {
+    altTxt: "React Learning Video",
+    text: "#23 React Hooks Bangla - React useReducer hook Bangla",
+    text2: "10 Questions",
+    text3: "Score : Not taken yet",
+  };
   return (
-    <>
-      {/* <Videos>
+    <div>
+      <Videos>
         <Video videoProps={videoProps} />
         <Video videoProps={videoProps} />
         <Video videoProps={videoProps} />
@@ -18,7 +18,7 @@ export default function Home() {
         <Video videoProps={videoProps} />
         <Video videoProps={videoProps} />
         <Video videoProps={videoProps} />
-      </Videos> */}
-    </>
+      </Videos>
+    </div>
   );
 }

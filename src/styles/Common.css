@@ -84,3 +84,22 @@ h4 {
 .signup {
   height: 350px;
 }
+/* login component */
+.login {
+  height: 330px;
+}
+/* Info */
+.info {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.correct {
+  background: var(--successGreen) !important;
+  font-weight: 600;
+}
+
+.wrong {
+  background: var(--dangerRed) !important;
+  font-weight: 600;
+}

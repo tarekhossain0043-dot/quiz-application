@@ -1,7 +1,8 @@
 import Home from "../pages/Home";
+import Login from "../pages/Login";
+import Quiz from "../pages/Quiz";
 import SignUp from "../pages/SignUp";
 import Layout from "./Layout";
-import Login from "./Login";
 export default function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ export default function App() {
         <Home />
         <SignUp />
         <Login text="Login to your account" />
+        <Quiz />
       </Layout>
     </div>
   );

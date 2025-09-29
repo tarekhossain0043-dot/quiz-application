@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Video from "../component/Video";
 import Videos from "../component/Videos";
 export default function Home() {
@@ -10,14 +11,30 @@ export default function Home() {
   return (
     <div>
       <Videos>
-        <Video videoProps={videoProps} />
-        <Video videoProps={videoProps} />
-        <Video videoProps={videoProps} />
-        <Video videoProps={videoProps} />
-        <Video videoProps={videoProps} />
-        <Video videoProps={videoProps} />
-        <Video videoProps={videoProps} />
-        <Video videoProps={videoProps} />
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
       </Videos>
     </div>
   );

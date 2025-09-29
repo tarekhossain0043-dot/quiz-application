@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "./Button";
 import TextInput from "./TxtInput";
 export default function FormLogin({ ...rest }) {
@@ -11,7 +12,7 @@ export default function FormLogin({ ...rest }) {
       <TextInput type="password" placeholder="Enter password" icon="lock" />
       <Button text="Submit now" />
       <div className="info">
-        Don't have an account? <a href="signup.html">Signup</a> instead.
+        Don't have an account? <Link to="/signup">Signup</Link> instead.
       </div>
     </form>
   );

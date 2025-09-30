@@ -20,7 +20,7 @@ export default function App() {
           <Route path="/quiz" element={<Quiz />} />
           <Route path="/result" element={<Result />} />
           <Route path="/signup" element={<SignUp />} />
-          {/* <Route path="*" element={<div>Page Not Found</div>} /> */}
+          <Route path="*" element={<div>Page Not Found</div>} />
         </Routes>
       </Layout>
       {/* </Router> */}

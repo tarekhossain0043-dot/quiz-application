@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tarekhossain0043-dot/github.io/quiz-application/",
+  "homepage": "https://tarekhossain0043-dot.github.io/quiz-application/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

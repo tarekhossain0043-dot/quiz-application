@@ -35,6 +35,12 @@ export default function Home() {
         <Link to="/quiz">
           <Video videoProps={videoProps} />
         </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
+        <Link to="/quiz">
+          <Video videoProps={videoProps} />
+        </Link>
       </Videos>
     </div>
   );

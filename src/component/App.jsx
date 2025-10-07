@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import { AuthProvider } from "../contexts/AuthContext";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
 import Quiz from "../pages/Quiz";
@@ -12,21 +11,21 @@ export default function App() {
   return (
     <div>
       {/* <Router> */}
-      <AuthProvider>
-        <Layout>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route
-              path="/login"
-              element={<Login text="Login to your account" />}
-            />
-            <Route path="/quiz" element={<Quiz />} />
-            <Route path="/result" element={<Result />} />
-            <Route path="/signup" element={<SignUp />} />
-            <Route path="*" element={<div>Page Not Found</div>} />
-          </Routes>
-        </Layout>
-      </AuthProvider>
+
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route
+            path="/login"
+            element={<Login text="Login to your account" />}
+          />
+          <Route path="/quiz" element={<Quiz />} />
+          <Route path="/result" element={<Result />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="*" element={<div>Page Not Found</div>} />
+        </Routes>
+      </Layout>
+
       {/* </Router> */}
     </div>
   );

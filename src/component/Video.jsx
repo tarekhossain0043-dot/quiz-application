@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import img from "../assets/images/3.jpg";
 import Classes from "../styles/Video.module.css";
 export default function Video(props) {
   const { altTxt, text, text2, text3 } = props.videoProps;
   return (
     <>
-      <Link to="/quiz">
+      <div>
         <div className={Classes.video}>
           <img src={img} alt={altTxt} />
           <p>{text}</p>
@@ -14,7 +13,7 @@ export default function Video(props) {
             <p>{text3}</p>
           </div>
         </div>
-      </Link>
+      </div>
     </>
   );
 }
